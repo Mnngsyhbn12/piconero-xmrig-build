@@ -1,0 +1,7 @@
+# Everything a local rebuild produces. The published snapshot of the same data
+# is xmrig-build-info.json at the root of this repo.
+build/
+android/
+licenses/
+*.o
+*.a

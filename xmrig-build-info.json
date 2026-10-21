@@ -1,0 +1,19 @@
+{
+  "project": "XMRig",
+  "upstream": "https://github.com/xmrig/xmrig",
+  "tag": "v6.26.0",
+  "commit": "b2ca72480c58d197e18c885d9fc1a0c8d517e60a",
+  "license": "GPLv3",
+  "sourceModified": false,
+  "ndk": "28.2.13676358",
+  "cmake": "3.22.1",
+  "androidAbi": "arm64-v8a",
+  "androidPlatform": "android-26",
+  "androidStl": "c++_static",
+  "dependency": { "libuv": "1.51.0", "static": true },
+  "linkStubs": ["libpthread.a", "librt.a"],
+  "donateLevel": "1 (kMinimumDonateLevel=1 in src/donate.h; Pools::setDonateLevel rejects 0, so upstream always donates ~1%)",
+  "strippedBytes": 1654176,
+  "strippedSha256": "1fa2701cc5c3512f5e71aaa21057ab003ba1651f5227c491a668f803d4f82abf",
+  "reproduce": "bash scripts/build-xmrig.sh"
+}
